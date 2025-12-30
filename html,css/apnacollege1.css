@@ -1,0 +1,103 @@
+/* *{
+    font-family: 'Times New Roman', Times, serif;
+}
+#box{
+    background-color: blue;
+}
+.heading{
+    color: red;
+}
+button{
+    background-color: green;
+}
+#heading{
+    text-align: center;
+    text-transform: capitalize;
+}
+#outer{
+    font-size: 25px;
+}
+#inner{
+    font-size: 10px;
+} */
+/* .main{
+    height: 400px;
+    width: 150px;
+    background-color: #201f1f;
+}
+.red{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+    align-content: center;
+}
+.yellow{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+.green{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+} */
+ *{
+    padding: 0;
+    margin: 0;
+ }
+ #navbar{
+    height: 60px;
+    background-color: #0f1111;
+ }
+ button{
+    background-color: #f08804;
+ }
+ #logo{
+    background-color: #f08804;
+    font-size: 25px;
+ }
+ a{
+    margin-right: 200px;
+ }
+ .contentbox{
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+    margin: 25px;
+    display: inline-block;
+ }
+ .box1{
+    background-color: blue;
+    opacity: 0.5;
+ }
+ .box2{
+    background-color: red;
+    opacity: 0.5;
+ }
+ .box3{
+    background-color: blueviolet;
+    opacity: 0.5;
+ }
+ /* footer{
+    background-color: #0f1111;
+    color: white;
+    text-align: center;
+ }
+ #content{
+    height: 650px;
+ } */
+ .div{
+    height: 200px;
+    width: 200px;
+    background-image: url(image.jpg);
+    background-size: cover;
+    color: red;
+    position: fixed;
+    right: 0px;
+ }
+p{
+    font-size: 30px;
+}

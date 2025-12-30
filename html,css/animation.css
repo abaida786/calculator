@@ -1,0 +1,43 @@
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: blue; 
+    animation: hello 10s infinite alternate linear;
+}
+@keyframes hello{
+    0%{
+        transform: translate(0px, 0px);
+    }
+    25%{
+        transform: translate(0px, 550px);
+    }
+    50%{
+        transform: translate(1490px, 550px);
+    }
+    75%{
+        transform: translate(1490px, 0px);
+    }
+    100%{
+        transform: translate(0px, 0px);
+    }
+}
+/* .box1{
+    animation: hello 5s infinite ease-in alternate;
+    background-color: blue;
+    font-size: 30px;
+}
+.box2{
+    animation: hello 5s infinite ease-out alternate ;
+    background-color: blueviolet;
+    font-size: 30px;
+}
+.box3{
+    animation: hello 5s infinite ease-in-out alternate;
+    background-color: brown;
+    font-size: 30px;
+}
+.box4{
+    animation: hello 5s infinite linear alternate;
+    background-color: aqua;
+    font-size: 30px;
+} */

@@ -1,0 +1,174 @@
+.nav{
+  list-style-type: none;
+  display: flex;
+  gap: 50px;
+  text-align: center;
+  font-size: 22px;
+  width: 100%;
+
+}
+.layout{
+    padding-top: 10px;
+    /* margin-right: 200px; */
+  text-align: center;
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  background: #37517e;
+  color: aliceblue;
+  position: fixed;
+  
+}
+.h1{
+  padding-left: 100px;
+  font-size: 50px;
+}
+.button{
+  border-radius: 50px;
+  background: #47b2e4;
+  width: 100px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.button:hover{
+  background-color: blue;
+}
+.main{
+    display: flex;
+    background: #37517e;
+    padding-top: 152px;
+    padding-left: 130px;
+}
+.box1{
+    width: 50%;
+    height: 50%;
+}
+.heading1{
+    
+    color: white;
+    font-weight: 900;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.heading2{
+
+    color: white;
+    font-weight: 200;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.box2{
+    width: 50%;
+    height: 50%;
+    padding-left: 100px;
+}
+.getstarted{
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 28px 11px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    color: #fff;
+    background: #47b2e4;
+}
+.getstarted:hover {
+    background: #209dd8;
+}
+.watchvideo{
+  line-height: 0;
+  color: #fff;
+  font-size: 22px;
+  transition: 0.3s;
+  margin-right: 8px;
+  padding: 10px 28px 11px 28px;
+  border-radius: 50px;
+  background: #47b2e4;
+  }
+  .img{
+    width: 80%;
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  }
+  @keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.tags{
+  display: flex;
+  gap: 100px;
+  width: 150px;
+  height: 100px;
+  padding-top: 50px;
+}
+.heading{
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700px;
+  color: blue;
+  text-decoration: underline;
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+.abox{
+  width: 50%;
+  background-color: white;
+  justify-content: left;
+  padding: 30px;
+  font-size: 25px;
+  line-height: 32px;
+  
+}
+.bbox{
+  width: 50%;
+  background-color: white;
+  padding: 30px;
+  font-size: 25px;
+  line-height: 32px;
+}
+.main1{
+  display: flex;
+}
+.button1{
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 28px 11px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    color: #fff;
+    background: #47b2e4;
+}
+.button1:hover{
+  background-color: rgb(43, 0, 233);
+}
+@media only screen and (min-width: 700px) and (max-width: 900px) {
+    .main{
+        background-color: rgb(219, 6, 6);
+    }
+    .main h1{
+        font-size: 40px;
+        color: rgb(10, 2, 19);
+    }
+    .main h2{
+      font-size: 40px;
+        color: rgb(10, 5, 5);
+    }
+}
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+  .main1{
+    background-color: aliceblue;
+    color: rgb(38, 211, 96);
+  }
+}
