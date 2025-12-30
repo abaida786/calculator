@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do-List</title>
+
+<style>
+    body {
+  font-family: Arial, sans-serif;
+  background: white;
+}
+
+.todo-box {
+  width: 350px;
+  margin: 40px auto;
+  background: rgb(122, 126, 70);
+  border: 2px solid black;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.input-area {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+input {
+  flex: 1;
+  padding: 5px;
+}
+
+button {
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+li input {
+  margin-right: 10px;
+}
+
+.line {
+  flex: 1;
+  border-bottom: 1px solid gray;
+  padding-bottom: 3px;
+}
+
+.checked {
+  text-decoration: line-through;
+  color: rgb(206, 44, 44);
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="todo-box">
+  <h2>TO DO LIST</h2>
+
+  <div class="input-area">
+    <input type="text" id="taskInput" placeholder="Add new task">
+    <button onclick="addTask()">Add</button>
+  </div>
+
+  <ul id="taskList"></ul>
+</div>
+
+<script src="to-do-list.js"></script>
+</body>
+</html>
+
+</body>
+</html>
+
+</body>
+</html>

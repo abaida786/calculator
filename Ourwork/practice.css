@@ -1,0 +1,12 @@
+.div {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(241, 79, 106);
+    opacity: 0.75;
+    border: 5px dashed brown;
+    border-radius: 10px;
+    font-size: 20px;  
+    position: absolute;
+    bottom: 120px;
+    right: 10px;  
+}

@@ -1,0 +1,61 @@
+.main{
+    background-color: blueviolet;
+    height: 500px;
+}
+h1{
+    color: brown;
+    font-size: 50px;
+}
+.innerbox{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+}
+
+@media only screen and (min-width: 300px) {
+    .main{
+        background-color: rgb(219, 6, 6);
+    }
+    .main h1{
+        font-size: 40px;
+        color: rgb(10, 2, 19);
+    }
+    .para{
+        color: black;
+    }
+    .innerbox{
+       color: aliceblue;
+    }
+}
+
+/* @media only screen and (max-width: 700px) {
+    .main{
+        background-color: rgb(252, 64, 220);
+    }
+    .main h1{
+        font-size: 60px;
+        color: rgb(225, 244, 245);
+    }
+    .para{
+        color: blue;
+    }
+    .innerbox{
+        background-color: rgb(43, 226, 58);
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 700px) {
+    .main{
+        background-color: rgb(199, 241, 8);
+    }
+    .main h1{
+        font-size: 40px;
+        color: rgb(81, 1, 160);
+    }
+    .para{
+        color: rgb(12, 15, 15);
+    }
+    .innerbox{
+        display: none;
+    }
+} */

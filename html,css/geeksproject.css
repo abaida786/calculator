@@ -1,0 +1,8 @@
+div{
+    background-color: rgb(34, 124, 34);
+    height: 150px;
+    color: white;
+    display: inline-flexbox;
+    align-content: center;
+    justify-content: center;
+}
