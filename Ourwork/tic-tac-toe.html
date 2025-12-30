@@ -34,16 +34,38 @@ body{
     width: 18vmin;
     border: none;
     border-radius: 8px;
-    font-size: 30px;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
     color: brown;
+    background-color: #ffffc7;
 }
 #reset-btn{
-    padding: 10px;
-    font-size: 12px;
+    padding: 1rem;
+    font-size: 1.25rem;
     background-color: blueviolet;
     color: white;
     border: none;
-    border-radius: 4px;
+    border-radius: 1rem;
+}
+#new-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+}
+#msg {
+    color: #ffffc7;
+    font-size: 5vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+.hide{
+    display: none;
 }
 
 
@@ -51,6 +73,10 @@ body{
     </style>
 </head>
 <body>
+    <div class="msg-container hide">
+        <p id="msg">Winner</p>
+        <button id="new-btn">New Game</button>
+    </div>
     <main>
     <h1> Tic Tac Toe </h1>
     <div class="container">
